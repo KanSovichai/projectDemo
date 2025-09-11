@@ -23,11 +23,6 @@ const Nav = () => {
 					<Link to="/supportus">Support Us</Link>
 				</li>
 			</ul>
-			<input
-				type="text"
-				placeholder="Search"
-				className="w-[200px] h-[35px] rounded-full p-2 bg-transparent text-white border-1 border-gray-200"
-			/>
 			<button
 				type="button"
 				className="bg-white rounded-[50%] p-2 hover:bg-gray-300"
