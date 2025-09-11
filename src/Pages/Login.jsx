@@ -11,8 +11,6 @@ function Login(props) {
   if (user) {
     props.setMsg("Welcome, " + user.name + "!");
     navigate('/'); // Go to homepage
-  } else {
-    props.setMsg("Wrong email or password!");
   }
 }
   return (
