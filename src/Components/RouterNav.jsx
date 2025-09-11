@@ -9,7 +9,7 @@ const Nav = () => {
 				className="hover:scale-110 w-[70px] h-[50px] "
 				/>
 			</Link>
-			<ul className="text-black md:gap-5 h-[50px] pl-4 md:flex-row flex md:mb-15 flex-col items-center">
+			<ul className="text-black md:gap-5 h-[50px] pl-4 md:flex-row flex flex-col items-center">
 				<li className="hover:border-b-3 transition-all transition-delay-2000 hover:border-b-blue-600 hover:text-blue-200 text-white flex flex-col justify-center items-center h-[50px]">
 					<Link to="/">Home</Link>
 				</li>
