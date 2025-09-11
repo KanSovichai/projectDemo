@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Nav = () => {
 	return (
-		<nav className="w-full h-[50px] flex-col max-md:h-[250px] md:flex-row items-center md:justify-between p-2 md:sticky top-0 z-50 bg-black flex">
+		<nav className="w-full h-[50px] flex-col max-md:h-[250px] md:flex-row items-center md:justify-between p-2 z-50 bg-black flex">
 			<Link to={"/"}>
 				<img
 				src="assets/AsusLogoWhite.jpg"
