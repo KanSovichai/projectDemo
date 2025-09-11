@@ -120,7 +120,7 @@ const Order = () => {
 	const Product = Products.find((value) => value.Name === productName);
 	const [showPopup, setShowPopup] = useState(false);
 	return (
-		<div className="w-full h-[100vh] flex flex-col md:flex-row justify-between items-center bg-black text-white">
+		<div className="w-full h-[100vh] overflw-y-hidden flex flex-col md:flex-row justify-between items-center bg-black text-white">
 			<img src={Product.img} alt={Product.Name} className="w-[100%] md:w-[60%] h-[90vh]" />
 			<div className="flex flex-col gap-5 w-[40%] p-5">
 				<h1 className="text-4xl font-bold">{Product.Name}</h1>
