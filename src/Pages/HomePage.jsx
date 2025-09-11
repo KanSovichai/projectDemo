@@ -32,7 +32,7 @@ function Carousel() {
 }
 const Home = ({ msg }) => {
 	   return (
-		   <div>
+		   <div className="h-[screen]">
 			   {msg !== "" && (
 				   <div className="w-full bg-black text-[50px] font-bold italic text-gray-200 text-center p-2">
 					   {msg}
