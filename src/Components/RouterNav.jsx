@@ -9,7 +9,7 @@ const Nav = () => {
 				className="hover:scale-110 w-[70px] h-[50px] "
 				/>
 			</Link>
-			<ul className="text-black md:gap-5 h-[50px] pl-4 md:flex-row flex flex-col items-center">
+			<ul className="text-black md:gap-5 h-[50px] pl-4 md:flex-row flex max-md:mb-15 flex-col items-center">
 				<li className="hover:border-b-3 transition-all transition-delay-2000 hover:border-b-blue-600 hover:text-blue-200 text-white flex flex-col justify-center items-center h-[50px]">
 					<Link to="/">Home</Link>
 				</li>
@@ -23,6 +23,11 @@ const Nav = () => {
 					<Link to="/supportus">Support Us</Link>
 				</li>
 			</ul>
+			<input
+				type="text"
+				placeholder="Search"
+				className="w-[200px] h-[35px] rounded-full p-2 bg-transparent text-white border-1 border-gray-200"
+			/>
 			<button
 				type="button"
 				className="bg-white rounded-[50%] p-2 hover:bg-gray-300"
