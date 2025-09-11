@@ -3,7 +3,7 @@ const About = () => {
 		<div className="relative w-full h-[100vh] bg-black">
 			<img
 				src="https://i.pinimg.com/736x/1b/bd/e5/1bbde5bb2c98f501e4c00d6502e8f385.jpg"
-				className="w-full h-full object-cover"
+				className="w-full h-full object-cover opacity-75"
 				alt=""
 			/>
 			<div className="absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center">
