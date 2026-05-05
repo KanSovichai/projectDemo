@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-black to-gray-800 text-white py-8 px-4 w-full shadow-lg">
       <div className="mx-auto flex flex-col md:flex-row items-center justify-between">
         <p className="text-base font-semibold mb-4 md:mb-0 hover: text-light-blue-300 transition-colors hover:scale-105">
-          &copy; {new Date().getFullYear()} Welcome to our website!!!
+          &copy; {new Date().getFullYear()} Welcome to our website!!! WARNING please do not send money from that QR code in every product this is just a demo website. we do not take responsible if you lose money by any cause.
         </p>
         <div className="flex flex-col items-center">
           <h3 className="text-lg font-bold mb-3 text-white hover:text-amber-100 transition-colors">ABOUT US</h3>
